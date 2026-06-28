@@ -1,4 +1,4 @@
-import { motion, Variants } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { FaJava, FaPython, FaGithub, FaReact } from 'react-icons/fa';
 import { SiDjango, SiMysql, SiOpenai } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
