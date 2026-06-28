@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { FaJava, FaPython, FaGitAlt, FaGithub, FaReact } from 'react-icons/fa';
+import { motion, Variants } from 'framer-motion';
+import { FaJava, FaPython, FaGithub, FaReact } from 'react-icons/fa';
 import { SiDjango, SiMysql, SiOpenai } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
 
@@ -14,7 +14,7 @@ const techSkills = [
   { name: 'Git & GitHub', icon: <FaGithub size={40} />, color: 'hover:text-white hover:border-white/50' },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -24,7 +24,7 @@ const containerVariants = {
   }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, scale: 0.9, y: 20 },
   visible: { opacity: 1, scale: 1, y: 0, transition: { type: "spring", stiffness: 100 } }
 };
